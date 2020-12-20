@@ -22,7 +22,7 @@ export default class Register extends Component {
           <input
             type="submit"
             defaultvalue="Register"
-            className="btn btn-primary"
+            className="btn btn-info"
           />
         </form>
         <p className="my-1">
