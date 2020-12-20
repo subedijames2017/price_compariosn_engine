@@ -16,19 +16,14 @@ class Landingpage extends Component {
             role="tabpanel"
             aria-labelledby="nav-home-tab"
           >
-            <Form>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Control
-                  value=""
-                  as="textarea"
-                  rows="3"
-                  placeholder="Enter Product"
-                />
-              </Form.Group>
-              <Button variant="info" type="submit">
+            <form action="/" className="form">
+              <div className="form-group">
+                <textarea type="name" placeholder="Enter product" />
+              </div>
+              <button type="submit" className="btn btn-info">
                 Compare Product Price
-              </Button>
-            </Form>
+              </button>
+            </form>
           </div>
         </div>
       </div>
